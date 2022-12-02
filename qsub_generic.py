@@ -88,7 +88,7 @@ for row in dt.itertuples(index=True, name='Pandas'):
     RUN  = row.RUN
     dwi  = row.dwi
     func = row.func
-    if RUN and dwi:
+    if RUN:
         cmdstr = (f"{codedir}/qsub_generic.sh " +
                   f"-t {tool} " +
 		          f"-s {sub} " +
