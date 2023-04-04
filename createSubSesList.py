@@ -3,7 +3,7 @@ import pandas as pd
 
 # Get the unique list of subjects and sessions
 # basedir  = "/bcbl/home/public/Gari/MAGNO2"
-basedir="/scratch/lmx/ABCDA/"
+basedir="/scratch/xgao/ABCDA_19/"
 curatedlist=os.path.join(basedir,"Nifti", "participants.tsv")
 
 # READ THE FILE
@@ -27,7 +27,9 @@ for index, row in dt.iterrows():
                 func = True
             subses = subses.append({"sub":sub, "ses":ses, "RUN":True, "anat":anat, 
                             "dwi":dwi, "func":func, "age": row["age"], "sex": row["sex"]}, ignore_index=True)
- 
+        else:
+            print(sub,ses)
+
 
 
 opFile = os.path.join(basedir, "Nifti", 'subSesList.txt')

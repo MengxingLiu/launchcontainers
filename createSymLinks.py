@@ -79,7 +79,7 @@ subseslist = os.path.join(basedir, 'Nifti', "subSesList.txt")
 os.chdir(codedir)
 
 # READ THE FILE
-dt = pd.read_csv(subseslist, sep=",", header=0)
+dt = pd.read_csv(subseslist, sep=",", header=0, dtype=str)
 for index in dt.index:
     sub = dt.loc[index, 'sub']
    # if isinstance(sub.item(),int):

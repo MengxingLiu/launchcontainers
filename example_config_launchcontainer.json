@@ -1,22 +1,22 @@
 {
   "config": {
-    "basedir": "/scratch/lmx/ABCDA",
+    "basedir": "/scratch/xgao/sandra_DWI",
     "rpe": true,
-    "tool": "anatrois_4.2.7-7.1.1",
+    "tool": "rtp-pipeline_4.3.5d",
     "analysis": "01",
-    "annotfile": "/scratch/lmx/ThaTract/Nifti/annotfile.zip",
-    "mniroizip": "/scratch/lmx/ThaTract/MNI_ROIS_FOR_FSL.zip",
+    "annotfile": false,
+    "mniroizip": false,
     "pre_fs":false,
     "pretoolfs":"anatrois_4.2.7-7.1.1",
     "preanalysisfs":"01",
     "prefs_zipname":"freesurfer-recon-all",
     "pretoolpp":"rtppreproc_1.1.3",
     "preanalysispp":"01",
-    "codedir":"/dipc/lmx/GIT/launchcontainers",
+    "codedir":"/dipc/xgao/GIT/launchcontainers",
     "host": "DIPC",
-    "logdir":"/scratch/lmx/logs",
-    "tmpdir":"/scratch/lmx/singtmp",
-    "container":"/scratch/lmx/containers",
+    "logdir":"/scratch/xgao/logs",
+    "tmpdir":"/scratch/xgao/singtmp",
+    "container":"/scratch/xgao/containers",
     "qsub":"true"
   },
   "BCBL": {
@@ -27,12 +27,12 @@
     "maxwall":10
   },
   "DIPC": {
-    "mem":"32G",
+    "mem":"20G",
     "que":"regular",
-    "core":24,
+    "core":15,
     "sin_ver":"Singularity/3.5.3-GCC-8.3.0",
     "manager":"slurm",
     "system":"lscratch",
-    "maxwall":24
+    "maxwall":5
   }
 }

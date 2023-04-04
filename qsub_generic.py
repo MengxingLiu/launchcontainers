@@ -84,7 +84,7 @@ dt = pd.read_csv(subseslist, sep=",", header=0)
 
 for row in dt.itertuples(index=True, name='Pandas'):
     sub  = row.sub
-    ses  = row.ses
+    ses  = str(row.ses)
     RUN  = row.RUN
     dwi  = row.dwi
     func = row.func

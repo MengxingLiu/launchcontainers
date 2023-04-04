@@ -1,0 +1,23 @@
+NDARINVGGJJVCTG baselineYear1Arm1 T1_run
+NDARINVGK9ACPNW baselineYear1Arm1 T1_run
+NDARINVGK9ACPNW 2YearFollowUpYArm1 T1_run
+NDARINVJPLZNTRP 2YearFollowUpYArm1 T1_run
+NDARINVKD2D4HP2 baselineYear1Arm1 T1_run
+NDARINVFPEWC40T 2YearFollowUpYArm1 not exist
+NDARINVFXG8A4V4 baselineYear1Arm1 not exist
+NDARINVG0F3TJPW 2YearFollowUpYArm1 not exist
+NDARINVG19M2F39 baselineYear1Arm1 not exist
+cp /scratch/xgao/ABCDA_05/Nifti/.heudiconv/NDARINVGGJJVCTG/ses-2YearFollowUpYArm1/info/NDARINVGGJJVCTG_ses-2YearFollowUpYArm1.edit.txt /scratch/xgao/ABCDA_05/Nifti/.heudiconv/NDARINVGGJJVCTG/ses-baselineYear1Arm1/info/NDARINVGGJJVCTG_ses-baselineYear1Arm1.edit.txt
+bash step2_heudiconv.sh NDARINVGGJJVCTG baselineYear1Arm1
+cp /scratch/xgao/ABCDA_05/Nifti/.heudiconv/NDARINVGK9ACPNW/ses-2YearFollowUpYArm1/info/NDARINVGK9ACPNW_ses-2YearFollowUpYArm1.edit.txt /scratch/xgao/ABCDA_05/Nifti/.heudiconv/NDARINVGK9ACPNW/ses-baselineYear1Arm1/info/NDARINVGK9ACPNW_ses-baselineYear1Arm1.edit.txt
+bash step2_heudiconv.sh NDARINVGK9ACPNW baselineYear1Arm1
+cp /scratch/xgao/ABCDA_05/Nifti/.heudiconv/NDARINVGK9ACPNW/ses-baselineYear1Arm1/info/NDARINVGK9ACPNW_ses-baselineYear1Arm1.edit.txt /scratch/xgao/ABCDA_05/Nifti/.heudiconv/NDARINVGK9ACPNW/ses-2YearFollowUpYArm1/info/NDARINVGK9ACPNW_ses-2YearFollowUpYArm1.edit.txt
+bash step2_heudiconv.sh NDARINVGK9ACPNW 2YearFollowUpYArm1
+NDARINVGVPPRTDN baselineYear1Arm1 not exist
+NDARINVHZFMKD7L 2YearFollowUpYArm1 not exist
+NDARINVJKBDRF1B baselineYear1Arm1 not exist
+cp /scratch/xgao/ABCDA_05/Nifti/.heudiconv/NDARINVJPLZNTRP/ses-baselineYear1Arm1/info/NDARINVJPLZNTRP_ses-baselineYear1Arm1.edit.txt /scratch/xgao/ABCDA_05/Nifti/.heudiconv/NDARINVJPLZNTRP/ses-2YearFollowUpYArm1/info/NDARINVJPLZNTRP_ses-2YearFollowUpYArm1.edit.txt
+bash step2_heudiconv.sh NDARINVJPLZNTRP 2YearFollowUpYArm1
+NDARINVJXA05086 2YearFollowUpYArm1 not exist
+cp /scratch/xgao/ABCDA_05/Nifti/.heudiconv/NDARINVKD2D4HP2/ses-2YearFollowUpYArm1/info/NDARINVKD2D4HP2_ses-2YearFollowUpYArm1.edit.txt /scratch/xgao/ABCDA_05/Nifti/.heudiconv/NDARINVKD2D4HP2/ses-baselineYear1Arm1/info/NDARINVKD2D4HP2_ses-baselineYear1Arm1.edit.txt
+bash step2_heudiconv.sh NDARINVKD2D4HP2 baselineYear1Arm1
